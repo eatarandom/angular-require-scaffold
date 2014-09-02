@@ -1,0 +1,16 @@
+/**
+ *	main.scss
+ *	
+ *	Description:
+ *	Imports all files.
+ *	
+ */
+
+$IE: false;
+
+@import "base";				// base element 
+@import "properties"; 		// variables/mixins/prototypes
+@import "global";			// global site elements
+@import "typography";		// fonts
+@import "icon";				// icons
+@import "modules";			// re-usable site modules
