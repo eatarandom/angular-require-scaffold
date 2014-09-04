@@ -12,7 +12,9 @@ require.config({
 		// example of a including a raw javascript file
 		'log': '../helpers/log',
 
-		'app': 'app'
+		'app': 'app',
+
+		'components': 'components'
 	
 	},
 
@@ -39,6 +41,7 @@ define(['jquery', 'routes'], function($,routes) {
 	log('app kickoff');
 
 	angular.bootstrap(document, ['app']);
+	
 
 	
 

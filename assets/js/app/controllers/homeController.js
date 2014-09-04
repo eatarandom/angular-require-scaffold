@@ -1,9 +1,10 @@
 define([
 	'./module',
-	'../../helpers/say'
-], function (module, say) {
+	'../../helpers/say',
+	'components/catalog/index'
+], function (module, say, Catalog) {
 
-	log('controllers/homeController');
+	log('controllers/homeController', Catalog);
 
 	module.controller('homeController', 
 		

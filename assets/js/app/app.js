@@ -11,6 +11,7 @@ define([
   // in all other modules needed for the application
   return angular.module('app', [
     'ngRoute',
-    'app.controllers'
+    'app.controllers',
+    'Catalog'
   ]);
 });
